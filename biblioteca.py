@@ -107,7 +107,7 @@ def main():
             case 5:
                 devolver_libro() 
             case 6:
-                print(mostrar_libros_sin_stock())
+                mostrar_libros_sin_stock()
             case _:
                 print("Por favor elige una opción válida(del 1 al 7)")
         opcion = inicio_biblioteca()
